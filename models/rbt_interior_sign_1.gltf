@@ -1,0 +1,204 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v3.3.27",
+        "version" : "2.0"
+    },
+    "scene" : 2,
+    "scenes" : [
+        {
+            "name" : "Concept 1"
+        },
+        {
+            "name" : "Concept 2 + 3"
+        },
+        {
+            "name" : "Concept 4",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "parachute icon"
+        }
+    ],
+    "materials" : [
+        {
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0.3400000035762787,
+                0.21445733295949765,
+                0.02328264797381774
+            ],
+            "name" : "yellow neon",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    1,
+                    0.6307568550109863,
+                    0.06847837567329407,
+                    1
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "Black",
+            "pbrMetallicRoughness" : {}
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Plane.006",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                },
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 1235,
+            "max" : [
+                0.5720924735069275,
+                0.18738915026187897,
+                0.016914941370487213
+            ],
+            "min" : [
+                -0.6421292424201965,
+                -0.823413610458374,
+                -0.009220011532306671
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 1235,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 1235,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 1245,
+            "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 889,
+            "max" : [
+                0.5720924735069275,
+                0.18738915026187897,
+                0.016914941370487213
+            ],
+            "min" : [
+                -0.6421292424201965,
+                -0.823413610458374,
+                -0.009220011532306671
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 889,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 889,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 1329,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 14820,
+            "byteOffset" : 0,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 14820,
+            "byteOffset" : 14820,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 9880,
+            "byteOffset" : 29640,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2490,
+            "byteOffset" : 39520,
+            "target" : 34963
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10668,
+            "byteOffset" : 42012,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 10668,
+            "byteOffset" : 52680,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 7112,
+            "byteOffset" : 63348,
+            "target" : 34962
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 2658,
+            "byteOffset" : 70460,
+            "target" : 34963
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 73120,
+            "uri" : "rbt_interior_sign_1.bin"
+        }
+    ]
+}
